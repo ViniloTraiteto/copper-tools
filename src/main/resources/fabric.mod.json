@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "copper-tools",
+  "version": "${version}",
+  "name": "Copper Tools",
+  "description": "Adds copper tools",
+  "authors": [
+    "Vinilo Traiteto"
+  ],
+  "contact": {
+    "website": "https://github.com/ViniloTraiteto",
+    "repo": "https://github.com/ViniloTraiteto/copper-tools"
+  },
+  "license": "MIT",
+  "icon": "assets/copper-tools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.vt.coppertools.client.CopperToolsClient"
+    ],
+    "main": [
+      "org.vt.coppertools.CopperTools"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
